@@ -190,8 +190,8 @@ padding-top: 10px;
   background-position: center;
   color: #efefef !important;
   background-attachment: fixed;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   margin-right: 10px;
   margin-left: 10px;
   
@@ -199,7 +199,7 @@ padding-top: 10px;
 #services h1{
   text-align: center;
   color: #efefef !important;
-  padding-bottom: 5px;
+  padding-bottom: 10px;
 }
 #services h1::after{
   content: '';
@@ -209,10 +209,8 @@ padding-top: 10px;
   width: 170px;
   margin:20px auto 5px;
 }
-
-.information{
-  text-align: center;
-
+.services{
+  margin-top: 40px; 
 }
 
 /*-----------------Team Members----------------------*/
@@ -313,7 +311,7 @@ h1::after{
   text-align: center;
   padding: 100px;
   font-family: sans-serif;
-  font-size: 35px;
+  font-size: 30px;
 }
 .container p{
   color: #fff;
