@@ -90,13 +90,18 @@ body{
 
  .pic{
    margin: 30px;
+  
  }
  .pic img{
   filter: grayscale(1);
+  border-radius: 50%;
  }
  .pic img:hover{
   filter: grayscale(0);
   cursor: pointer;
+ }
+ .pic p{
+   color: #000;
  }
   
   
